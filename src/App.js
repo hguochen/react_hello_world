@@ -27,7 +27,7 @@ function tryConvert(temperature, convert) {
   const rounded = Math.round(output * 1000) / 1000;
   return rounded.toString();
 }
-// eslint-disable-next-line
+
 class Calculator extends Component {
   constructor(props) {
     super(props);
